@@ -82,7 +82,7 @@ export default function Home() {
           </span>
 
           <h1 className="mt-3">
-            <b>what's include</b>
+            <b>{`what's include`}</b>
           </h1>
           <ul>
             <li className="mt-2">
