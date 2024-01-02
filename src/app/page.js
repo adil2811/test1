@@ -126,23 +126,23 @@ console.log('✌️what_to_expect --->', what_to_expect);
           </div>
         </div>
       </div>
-      <div className="mt-10 text-justify px-10">
-  <span className="block  break-words" style={{ textJustify: 'inter-word', textIndent: '1em' }}>
+      <div className="mt-10 text-justify px-10  ">
+  <span className="block  break-words ml-[200px]" style={{ textJustify: 'inter-word', textIndent: '1em' }}>
     <b>
       {testimonial?.text}
     </b>
   </span>
 
-  <div className="flex items-center mt-4 px-20">
-  <div className="w-10 h-10 bg-blue-500 rounded-full flex  justify-center mr-3 ">
-      <span className="text-white font-bold mt-2">A</span> {/* Replace with the initial of the author */}
-    </div>
-    <span className="font-semibold">
-      {testimonial?.reviewer_name}<br/>
-      <span className="text-[12px] mt-[-2px]">{testimonial?.reviewer_designation}</span>
-    </span>
-    
+  <div className="flex items-center justify-center mt-4 px-20"> {/* Added justify-center */}
+  <div className="w-10 h-10 bg-blue-500 rounded-full flex justify-center mr-3">
+    <span className="text-white font-bold mt-2">A</span>
   </div>
+  <span className="font-semibold">
+    {testimonial?.reviewer_name}<br/>
+    <span className="text-[12px] mt-[-2px]">{testimonial?.reviewer_designation}</span>
+  </span>
+</div>
+
 </div>
 
 <div className="h-10">
